@@ -1,7 +1,7 @@
 import React from "react";
 import { Layout } from "../components";
 import QueryResult from "../components/query-result";
-import { gql } from "../__generated__";
+import { gql } from "@apollo/client";
 import { useQuery } from "@apollo/client";
 import TrackCard from "../containers/track-card";
 
